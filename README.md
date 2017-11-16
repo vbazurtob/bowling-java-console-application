@@ -1,5 +1,10 @@
 Author: Voltaire Bazurto Blacio
 
+This is a JAVA project based on Spring Framework that takes a file containing names of players and pinfall scores of a bowling game as an input. The input file is parsed and the score game of all players is printed in console using a standard bowling scoring notation. The following youtube video explains in detail such scoring scheme.  
+
+https://www.youtube.com/watch?v=aBe71sD8o8c
+
+
 Project is based on maven template.
 Maven 3.5.2 was used.
 
