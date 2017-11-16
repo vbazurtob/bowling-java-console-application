@@ -10,7 +10,7 @@ Maven 3.5.2 was used.
 
 a) How to build and test
 
-    1. Enter the jobsity-test-bowlingapp dir:
+    1. Enter the /bowling-java-console-application dir:
 
     2. Inside the directory execute:  
         mvn clean
@@ -19,21 +19,21 @@ a) How to build and test
 
 b) How to build a fat executable jar:
 
-    1. Enter the jobsity-test-bowlingapp dir:
+    1. Enter the /bowling-java-console-application dir:
 
     2. Inside the directory execute:  
         mvn package
 
 c) Run the generated jar on console using .txt test files:
 
-    1. Enter the jobsity-test-bowlingapp dir:
+    1. Enter the /bowling-java-console-application dir:
 
     2. Inside the directory execute:  
         mvn package
 
         java -jar target/jobsity-test-bowlingapp-1.0-SNAPSHOT-jar-with-dependencies.jar target/test-classes/extra-rows.txt
     
-    4. You can check all the .txt files to test with the generated jar in the folder <jobsity-test-bowlingapp-root-dir>/target/test-classes/
+    4. You can check all the .txt files to test with the generated jar in the folder <bowling-java-console-application-root-dir>/target/test-classes/
     
     5. Another example with a different file:
         java -jar target/jobsity-test-bowlingapp-1.0-SNAPSHOT-jar-with-dependencies.jar target/test-classes/bowling-file.txt
